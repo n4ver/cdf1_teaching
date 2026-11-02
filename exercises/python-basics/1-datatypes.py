@@ -4,25 +4,39 @@
 
 # TODO: Write correct value types to variables.
 
-a = ...              # String 
-b = ...              # Integer
-c = ...              # Float
-d = ...              # Boolean
+a = "Hello World"              # String 
+b = 10              # Integer
+c = 0.5              # Float
+d = True              # Boolean
 
 # TODO: Print values.
+print(a)
+print(b)
+print(c)
+print(d)
 
 # TODO: Print types of values.
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
 
 # ----------------------------------------------
 
 """Lists and dictionaries"""
 
 # TODO: Make a list of 5 numbers and a string and assign it to a variable.
-my_list = None        # List
+my_list = [1,2,3,4,5,"Hello"]        # List
 
 # TODO: Print the length of the list.
+print(len(my_list))
 
 # TODO: Make a dictionary with 3 key-value pairs and assign it to a variable.
-my_dict = None        # Dictionary
+my_dict = {"x":1,"y":2,"z":3}        # Dictionary
 
 # TODO: Print keys, values, key-value pairs.
+print(my_dict.keys())
+print(my_dict.values())
+print(my_dict.items())
+
+print(my_dict["x"])

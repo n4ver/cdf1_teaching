@@ -8,7 +8,9 @@
 
 break_condition = 0
 
-...
+while break_condition < 5:
+    print(break_condition)
+    break_condition += 1
 
 print("out of while loop")
 
@@ -21,5 +23,5 @@ print("out of while loop")
 # TODO: Iterate over pets, printing each one
 
 pets = ["dog", "cat", "horse", "rabbit", "snake"]
-
-print(pet)
+for pet in pets:
+    print(pet)
